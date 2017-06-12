@@ -51,7 +51,7 @@ def fitch_bottom_up(node_list):
 
 
 def main():
-	morph_nex = AlignIO.read(open("morph_data.nex"), "nexus")
+	# morph_nex = AlignIO.read(open("morph_data.nex"), "nexus")
 	rag1_nex = AlignIO.read(open("RAG1_trimmed.nex"), "nexus")
 	cytb_nex = AlignIO.read(open("CYTB_trimmed.nex"), "nexus")
 

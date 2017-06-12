@@ -20,12 +20,11 @@ def score_all_trees(nexus):
 		tree.rooted = True
 		score = scorer.get_score(tree,nexus)
 		scores.append(score)
-	print(scores)
 	best_score = min(scores)
 	best_index = scores.index(best_score)
-
 	print(best_index)
 	print(newicks[best_index])
+
 
 def main():
 	print("Finding best tree for morphological data...")
